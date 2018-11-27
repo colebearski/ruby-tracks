@@ -246,3 +246,272 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 61ms (Views: 52.2ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:46:17 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 52ms (Views: 46.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:46:26 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 50ms (Views: 45.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:49:14 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 48ms (Views: 43.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:49:47 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 47ms (Views: 41.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:50:30 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 50ms (Views: 45.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:53:22 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 272ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_path' for #<#<Class:0x00007fe268242208>:0x00007fe26628a870>):
+    23:     <ul class="navbar-nav mr-auto">
+    24: 
+    25:       <li class="nav-item active">
+    26:         <%= link_to "Home", home_path %>
+    27:       </li>
+    28: 
+    29:     </ul>
+  
+app/views/layouts/application.html.erb:26:in `_app_views_layouts_application_html_erb__3922198786175361234_70305161925900'
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:54:26 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 68ms (Views: 59.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:54:31 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 81ms (Views: 70.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:54:33 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 57ms (Views: 48.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 19:54:33 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 63ms (Views: 56.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 19:54:35 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 70ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 19:56:59 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 56ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 19:58:18 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 38ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 19:58:34 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 34ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 19:59:46 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 43ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 20:01:03 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/colepedersen/Desktop/snowbasin/Code/Practice/rails/ruby-tracks/app/views/layouts/application.html.erb:9: syntax error, unexpected ',', expecting ')'
+    'application', 'data-turbolinks-track': 're...
+                  ^):
+  
+app/views/layouts/application.html.erb:9: syntax error, unexpected ',', expecting ')'
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 20:01:19 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 40ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 20:08:26 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 41ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 20:08:34 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 48ms (Views: 42.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 20:08:55 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 32.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 20:09:04 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 47ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2018-11-26 20:09:13 -0700
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zzbw7ButOcIgG1Ixh1aFf5F7mJ3g96iHl0BzHLGp+c2YPNmYu1WsV2ABtUfrZ9TzIISTaPqwcSY5bQoigGZg3A==", "post"=>{"title"=>"Post Two", "body"=>"Ruby is wicked!"}, "commit"=>"Save Post"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[36mPost Create (0.9ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Post Two"], ["body", "Ruby is wicked!"], ["created_at", "2018-11-27 03:09:13.178664"], ["updated_at", "2018-11-27 03:09:13.178664"]]
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:18
+Redirected to http://localhost:3000/posts/2
+Completed 302 Found in 6ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/2" for 127.0.0.1 at 2018-11-26 20:09:13 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 25.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 20:09:17 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 44ms (Views: 38.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 20:10:37 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 44ms (Views: 38.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 20:10:39 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/colepedersen/Desktop/snowbasin/Code/Practice/rails/ruby-tracks/app/views/posts/new.html.erb:5: syntax error, unexpected ',', expecting ')'
+....append=( f.text_field (:title, {:class => 'form-control'}) ...
+...                               ^
+/Users/colepedersen/Desktop/snowbasin/Code/Practice/rails/ruby-tracks/app/views/posts/new.html.erb:5: syntax error, unexpected '}', expecting ')'
+...tle, {:class => 'form-control'}) );@output_buffer.safe_appen...
+...                               ^
+/Users/colepedersen/Desktop/snowbasin/Code/Practice/rails/ruby-tracks/app/views/posts/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+...er.append=( f.text_area (:body, {:class => 'form-control'}) ...
+...                               ^
+/Users/colepedersen/Desktop/snowbasin/Code/Practice/rails/ruby-tracks/app/views/posts/new.html.erb:10: syntax error, unexpected '}', expecting ')'
+...ody, {:class => 'form-control'}) );@output_buffer.safe_appen...
+...                               ^
+/Users/colepedersen/Desktop/snowbasin/Code/Practice/rails/ruby-tracks/app/views/posts/new.html.erb:16: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/Users/colepedersen/Desktop/snowbasin/Code/Practice/rails/ruby-tracks/app/views/posts/new.html.erb:18: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/colepedersen/Desktop/snowbasin/Code/Practice/rails/ruby-tracks/app/views/posts/new.html.erb:20: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/posts/new.html.erb:5: syntax error, unexpected ',', expecting ')'
+app/views/posts/new.html.erb:5: syntax error, unexpected '}', expecting ')'
+app/views/posts/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+app/views/posts/new.html.erb:10: syntax error, unexpected '}', expecting ')'
+app/views/posts/new.html.erb:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/posts/new.html.erb:18: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/posts/new.html.erb:20: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/posts/new" for 127.0.0.1 at 2018-11-26 20:11:38 -0700
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 44ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
